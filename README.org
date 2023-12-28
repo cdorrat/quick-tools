@@ -1,0 +1,10 @@
+* Clojure tools & examples
+
+Sample clojure code for common tasks
+examples are in src/samples
+
+
+** sat
+ Uses google or-tools to solve constraint problems (eg. scheduling, prodiction, etc)
+  - [[https://github.com/google/or-tools][github]]
+  - [[https://developers.google.com/optimization/][docs]]
