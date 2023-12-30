@@ -10,6 +10,10 @@
   ;; google sat dependencies
   com.google.ortools/ortools-java {:mvn/version "9.8.3296"}
 
+  ;; scraping
+  enlive/enlive {:mvn/version "1.1.6"}
+  clj-http/clj-http {:mvn/version "3.12.3"}
+  
   ;; ================================================================================
   ;; debugging & tracing support
   

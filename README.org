@@ -8,3 +8,13 @@ examples are in src/samples
  Uses google or-tools to solve constraint problems (eg. scheduling, prodiction, etc)
   - [[https://github.com/google/or-tools][github]]
   - [[https://developers.google.com/optimization/][docs]]
+
+** scraping
+Use [[https://github.com/cgrand/enlive][enlive]] to scrape web sites.
+Includes examples for custom [[https://cgrand.github.io/enlive/syntax.html#selector-step][selectors]]
+
+
+* Todo
+  - [ ] Load testing with [[https://github.com/mhjort/trombi][Trombi]]
+  - [ ] loading cvs & computing stats ([[https://github.com/MastodonC/kixi.stats][kixi]]) & basic plotting.
+	 
