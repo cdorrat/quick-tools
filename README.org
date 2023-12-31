@@ -1,8 +1,10 @@
 * Clojure tools & examples
 
-Sample clojure code for common tasks
-examples are in src/samples
+Sample clojure code for common tasks.
+Examples are in src/samples
 
+** data
+  - reading csv files with data.csv
 
 ** sat
  Uses google or-tools to solve constraint problems (eg. scheduling, prodiction, etc)
