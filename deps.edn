@@ -3,6 +3,15 @@
  {
   ;; reading csv
   org.clojure/data.csv {:mvn/version "1.0.1"}
+
+  ;; logging
+  ch.qos.logback/logback-classic {:mvn/version "1.4.14"}
+
+  ;; descriptive stats
+  kixi/stats {:mvn/version "0.5.5"}
+  metasoarous/oz {:mvn/version "1.6.0-alpha36"}
+  techascent/tech.ml.dataset {:mvn/version "7.021"}
+  org.dhatim/fastexcel-reader {:mvn/version "0.12.8" :exclusions [org.apache.poi/poi-ooxml]}
   
   ;; json
   cheshire/cheshire {:mvn/version "5.12.0"}

@@ -4,7 +4,10 @@ Sample clojure code for common tasks.
 Examples are in src/samples
 
 ** data
-  - reading csv files with data.csv
+  - [[./src/samples/data/csv.clj][csv.clj]] reading csv files with data.csv
+  - [[./src/samples/data/data_frame.clj][data_frame.clj]] data frames (think Pandas) with [[https://github.com/techascent/tech.ml.dataset?tab=readme-ov-file][tech.ml.dataset]]
+  - [[./src/samples/data/stats.clj][stats.clj]] descriptive stats with [[https://github.com/MastodonC/kixi.stats][kixi]]
+	 
 
 ** sat
  Uses google or-tools to solve constraint problems (eg. scheduling, prodiction, etc)
