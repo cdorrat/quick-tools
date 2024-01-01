@@ -6,8 +6,8 @@ Examples are in src/samples
 ** data
   - [[./src/samples/data/csv.clj][csv.clj]] reading csv files with data.csv
   - [[./src/samples/data/data_frame.clj][data_frame.clj]] data frames (think Pandas) with [[https://github.com/techascent/tech.ml.dataset?tab=readme-ov-file][tech.ml.dataset]]
-  - [[./src/samples/data/stats.clj][stats.clj]] descriptive stats with [[https://github.com/MastodonC/kixi.stats][kixi]]
-	 
+  - [[./src/samples/data/db.clj][db.clj]] reading from datbases with [[https://github.com/seancorfield/next-jdbc][next-jdbc]]
+  - [[./src/samples/data/stats.clj][stats.clj]] descriptive stats with [[https://github.com/MastodonC/kixi.stats][kixi]]	 
 
 ** sat
  Uses google or-tools to solve constraint problems (eg. scheduling, prodiction, etc)
@@ -21,5 +21,4 @@ Includes examples for custom [[https://cgrand.github.io/enlive/syntax.html#selec
 
 * Todo
   - [ ] Load testing with [[https://github.com/mhjort/trombi][Trombi]]
-  - [ ] loading cvs & computing stats ([[https://github.com/MastodonC/kixi.stats][kixi]]) & basic plotting.
 	 
